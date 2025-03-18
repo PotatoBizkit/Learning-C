@@ -2,5 +2,5 @@
 
 int main(){
     printf("I love berserk.");
-    return 0;
+    return 0; // value returned to OS
 }
