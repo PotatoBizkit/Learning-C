@@ -16,6 +16,7 @@ int main(){
     if (num < 0)
     {
         printf("Factorial cannot be performed for negative integers");
+        return 1;
     }
     
     fact = Factorial(num);
