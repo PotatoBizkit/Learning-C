@@ -13,6 +13,11 @@ int main(){
     int num, fact;
     printf("Enter the number you want factorial of:\n");
     scanf("%d", &num);
+    if (num < 0)
+    {
+        printf("Factorial cannot be performed for negative integers");
+    }
+    
     fact = Factorial(num);
     printf("The factorial of %d is %d.\n", num, fact);
     return 0;
