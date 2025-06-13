@@ -13,7 +13,7 @@ int main(){
     int num, fib;
     printf("Enter the element number of fibonacci sequence you want:\n");
     scanf("%d", &num);
-    if (num < 0)
+    if (num <= 0)
     {
         printf("Fibonacci cannot be performed for negative integers");
         return 1;
