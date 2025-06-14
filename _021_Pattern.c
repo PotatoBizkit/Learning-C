@@ -1,3 +1,9 @@
+// To print pattern:
+// *
+// **
+// ***
+// ...
+
 #include <stdio.h>
 
 void Lower_Triangle(int x, char c){
