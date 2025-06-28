@@ -1,14 +1,13 @@
 #include <stdio.h>
 
 int main(){
-    char f[50]="abc.txt";
-    FILE* ptr;
-    ptr = fopen(f, "r");
-    int num;
-    fscanf(ptr, "%d", &num);
-    printf("%d", num);
-    // fscanf(ptr, "%d", &num);
-    // printf("%d", num); // again prints 69
-    fclose(ptr);
+    char s[300];
+    FILE* ptr = NULL;
+
+    // Reading a file
+    // ptr = fopen("abc.txt", "r");
+    // fscanf(ptr, "%s", s); // reads only til first white space
+    // printf("%s", s);
+    // fclose(ptr);
     return 0;
 }
